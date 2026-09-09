@@ -35,24 +35,6 @@ LittlCloud/
 
 ---
 
-## How It Works
-
-LittlCloud presents the repositories belonging to the LittlCloud organisation in an easy-to-browse interface.
-
-Repositories can be filtered and sorted using criteria such as:
-
-| Option            | Description                                  |
-| ----------------- | ---------------------------------------- --- |
-|  Most Stars       | Shows the most-starred repositories first    |
-|  Most Forked      | Shows repositories with the most forks       |
-|  Recently Updated | Shows recently updated projects              |
-|  A–Z              | Sorts repositories alphabetically            |
-|  Language         | Filters repositories by programming language |
-
-This makes it easier to find the right project without having to manually dig through GitHub.
-
----
-
 ## Contributing
 
 Contributions, improvements and ideas are welcome.
