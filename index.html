@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LittlCloud — GitHub Repositories</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="sky">
+    <div class="cloud cloud-1"></div>
+    <div class="cloud cloud-2"></div>
+    <div class="cloud cloud-3"></div>
+    <div class="cloud cloud-4"></div>
+    <div class="cloud cloud-5"></div>
+    <div class="cloud cloud-6"></div>
+  </div>
+
+  <div class="wrapper">
+    <header>
+      <a id="org-link" class="org-link" href="https://github.com/LittlCloud" target="_blank" rel="noopener">
+        <img id="org-avatar" class="org-avatar" src="" alt="LittlCloud avatar">
+        <h1>LittlCloud</h1>
+      </a>
+      <p class="tagline">Open source repositories on GitHub</p>
+      <div class="stats-bar">
+        <div class="stat">
+          <span class="stat-value" id="stat-repos">—</span>
+          <span class="stat-label">repositories</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value" id="stat-langs">—</span>
+          <span class="stat-label">languages</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value" id="stat-stars">—</span>
+          <span class="stat-label">stars</span>
+        </div>
+      </div>
+    </header>
+
+    <div class="filter-row">
+      <input id="search" type="text" placeholder="Search by name, description or language…">
+      <select id="sort" class="sort-select">
+        <option value="updated">Recently updated</option>
+        <option value="stars">Most starred</option>
+        <option value="forks">Most forked</option>
+        <option value="name">Name A–Z</option>
+      </select>
+    </div>
+
+    <div id="grid" class="grid"></div>
+
+    <footer>
+      <p>Data from the <a href="https://docs.github.com/rest" target="_blank" rel="noopener">GitHub API</a> · <a href="https://github.com/LittlCloud" target="_blank" rel="noopener">github.com/LittlCloud</a></p>
+    </footer>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
