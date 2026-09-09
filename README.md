@@ -6,11 +6,11 @@
 
 Browse repositories, see what technologies they're built with, check out their popularity, and quickly find the projects you're interested in — all from one clean interface.
 
-** Live Site:** [littlcloud.github.io/LittlCloud](https://littlcloud.github.io/LittlCloud/)
+**Live Site:** [littlcloud.github.io/LittlCloud](https://littlcloud.github.io/LittlCloud/)
 
 ---
 
-##  Features
+## Features
 
 *  **Browse all repositories** — Explore the LittlCloud project ecosystem from one place.
 *  **Language filtering** — Quickly find projects based on their programming language.
